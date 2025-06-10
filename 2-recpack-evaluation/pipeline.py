@@ -842,7 +842,7 @@ def main():
             t_validation=t_validation,
             validation=True
         ),
-        # Same data split as WeakGen?
+        # We used this scenario for our discussion in the paper
         LastItemPrediction(
             validation=True,
             n_most_recent_in=30
