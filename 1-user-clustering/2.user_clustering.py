@@ -301,7 +301,7 @@ def find_optimal_clusters(X: pd.DataFrame, max_clusters: int = 10) -> int:
     plt.xlabel('k')
     plt.ylabel('Distortion')
     plt.title('Elbow Method For Optimal k')
-    plt.savefig(f'results/user_clusters/{result_folder}/elbow_plot.png')
+    plt.savefig(f'helpers/elbow/{result_folder}/elbow_plot.png')
     plt.close()
 
     # Find elbow point using kneed library
